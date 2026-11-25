@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Substituir Usuário Visualmente - Secullum RH
+// @name         PF Maker - Secullum RH
 // @namespace    local.secullum
-// @version      1.0
-// @description  Substitui visualmente o nome e e-mail do usuário exibidos no cabeçalho do Secullum RH para capturas de tela e PFs
+// @version      1.1
+// @description  Prepara o Secullum RH para capturas de tela e PFs: mascara o usuário no cabeçalho e oculta o carrossel de banners do menu lateral
 // @author       Luiz Gustavo Dias Pulz
 // @match        https://pontoweb.secullum.com.br/*
 // @run-at       document-start
@@ -15,10 +15,15 @@
     const NOME_EXIBICAO = 'Suporte Secullum';
     const EMAIL_EXIBICAO = 'suporte@secullum.com.br';
 
-    // Evita flash do usuário real antes da substituição no DOM
     GM_addStyle(`
+        /* Evita flash do usuário real antes da substituição no DOM */
         #info-usuario-dados:not([data-pf-masked="true"]) .info-usuario-dados-flex {
             visibility: hidden !important;
+        }
+
+        /* Oculta o carrossel de banners/avisos do menu lateral */
+        .carrossel:has(> .carrossel-faixa) {
+            display: none !important;
         }
     `);
 
