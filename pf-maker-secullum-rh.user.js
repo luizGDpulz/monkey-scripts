@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         PF Maker - Secullum RH
 // @namespace    local.secullum
-// @version      1.1
-// @description  Prepara o Secullum RH para capturas de tela e PFs: mascara o usuário no cabeçalho e oculta o carrossel de banners do menu lateral
+// @version      1.2
+// @description  Prepara o Secullum RH para capturas de tela e PFs: mascara o usuário no cabeçalho e oculta o carrossel de banners e o botão de atendimento flutuante
 // @author       Luiz Gustavo Dias Pulz
 // @match        https://pontoweb.secullum.com.br/*
 // @run-at       document-start
@@ -23,6 +23,11 @@
 
         /* Oculta o carrossel de banners/avisos do menu lateral */
         .carrossel:has(> .carrossel-faixa) {
+            display: none !important;
+        }
+
+        /* Oculta o botão flutuante de atendimento */
+        .atendimento-flutuante {
             display: none !important;
         }
     `);
