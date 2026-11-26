@@ -6,6 +6,8 @@
 // @description Fecha automaticamente popups do sistema
 //
 // @match https://pontoweb.secullum.com.br/*
+// @updateURL https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/adblock-secullum-ponto-web.user.js
+// @downloadURL https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/adblock-secullum-ponto-web.user.js
 //
 // @run-at document-end
 // @grant none

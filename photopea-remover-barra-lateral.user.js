@@ -5,6 +5,8 @@
 // @description  Remove a barra lateral direita e centraliza o editor sem acionar o anti-tamper do Photopea
 // @author       Luiz Gustavo Dias Pulz
 // @match        https://www.photopea.com/*
+// @updateURL    https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/photopea-remover-barra-lateral.user.js
+// @downloadURL  https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/photopea-remover-barra-lateral.user.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
