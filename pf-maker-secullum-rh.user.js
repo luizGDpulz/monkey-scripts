@@ -5,6 +5,8 @@
 // @description  Prepara o Secullum RH para capturas de tela e PFs: mascara o usuário no cabeçalho e oculta o carrossel de banners e o botão de atendimento flutuante
 // @author       Luiz Gustavo Dias Pulz
 // @match        https://pontoweb.secullum.com.br/*
+// @updateURL    https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/pf-maker-secullum-rh.user.js
+// @downloadURL  https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/pf-maker-secullum-rh.user.js
 // @run-at       document-start
 // @grant        GM_addStyle
 // ==/UserScript==

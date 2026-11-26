@@ -5,6 +5,8 @@
 // @description  Oculta e remove o ícone de lápis (inclusão manual) no cartão de ponto
 // @author       Luiz Gustavo Dias Pulz
 // @match        https://pontoweb.secullum.com.br/*
+// @updateURL    https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/remover-icone-inclusao-manual-secullum-pontoweb.user.js
+// @downloadURL  https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/remover-icone-inclusao-manual-secullum-pontoweb.user.js
 // @run-at       document-start
 // @grant        GM_addStyle
 // ==/UserScript==

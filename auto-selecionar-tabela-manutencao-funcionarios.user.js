@@ -5,6 +5,8 @@
 // @description  Seleciona automaticamente X checkboxes em uma tabela virtual a partir de um clique
 // @author       Luiz Gustavo Dias Pulz
 // @match        https://pontoweb.secullum.com.br/*
+// @updateURL    https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/auto-selecionar-tabela-manutencao-funcionarios.user.js
+// @downloadURL  https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/auto-selecionar-tabela-manutencao-funcionarios.user.js
 // @grant        none
 // ==/UserScript==
 

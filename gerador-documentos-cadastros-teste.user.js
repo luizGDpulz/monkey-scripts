@@ -4,6 +4,8 @@
 // @version      1.2.0
 // @description  Gera CPF, PIS e CNPJ com DV correto e preenche cadastros de teste. Alt+Shift+G oculta/exibe todos os controles.
 // @match        https://pontoweb.secullum.com.br/*
+// @updateURL    https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/gerador-documentos-cadastros-teste.user.js
+// @downloadURL  https://raw.githubusercontent.com/luizGDpulz/monkey-scripts/main/gerador-documentos-cadastros-teste.user.js
 // @run-at       document-end
 // @grant        none
 // @author       Tymótheo Trisch
