@@ -8,4 +8,6 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 ## [Não lançado]
 
 ### Adicionado
+- Tabela centralizada no `README.md` com links diretos de instalação (`Raw`) para todos os scripts.
+- Tags `@updateURL` e `@downloadURL` padronizadas em todos os userscripts para auto-atualização via Violentmonkey.
 - Estrutura inicial do repositório `monkey-scripts`.
